@@ -264,3 +264,9 @@ footer .logo-rodape {
   border-color: currentColor;
   box-shadow: none;
 }
+
+/* --- Inscricao --- */
+
+.inscricao {
+	margin: 15px;
+}
