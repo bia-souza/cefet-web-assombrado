@@ -51,6 +51,10 @@ header {
 
 header ul {
   background-color: rgba(0, 204, 147, 0.53);
+  list-style-type: none;
+  display: flex;
+  padding: 10px 300px;
+  justify-content: space-evenly;
 }
 
 header a {
@@ -83,7 +87,7 @@ main {
   margin-bottom: 1em;
 }
 
-#posts-principais .post {
+#posts-principais article {
   width: 40%;
   max-width: 400px;
   margin-left: 2.5%;
@@ -91,11 +95,11 @@ main {
   display: inline-block;
 }
 
-#posts-principais .post .titulo {
+#posts-principais article .titulo {
   text-shadow: 1px 1px black;
 }
 
-#posts-principais .post img {
+#posts-principais article img {
   width: 100%;
   max-width: 400px;
   box-sizing: border-box;
@@ -112,12 +116,12 @@ main {
   margin-bottom: 1em;
 }
 
-#ultimas-postagens .post {
+#ultimas-postagens article {
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
-#ultimas-postagens .post .data-horario {
+#ultimas-postagens article .data-horario {
   background-color: white;
   color: #333;
   border: 1px solid black;
