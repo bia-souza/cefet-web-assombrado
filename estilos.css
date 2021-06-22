@@ -300,3 +300,29 @@ footer .logo-rodape {
 .inscricao {
 	margin: 15px;
 }
+
+/* -------- boos -------------- */
+
+.boo {
+  position: absolute;
+  opacity: 0.15;
+  width: 100px;
+}
+
+.boo:hover{
+  opacity: 1;
+}
+
+#boo1 {
+  top: 0;
+  right: 0;
+}
+#boo2 {
+  bottom: 50%;
+  right: 60%;
+}
+
+#boo3 {
+  bottom: 0;
+  left: 0;
+}
