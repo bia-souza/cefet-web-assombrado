@@ -173,6 +173,8 @@ main {
   background-size: 300px;
   box-shadow: -4px 0 10px rgba(0, 0, 0, 0.5);
   text-align: center;
+  position: sticky;
+  top: 0;
 }
 
 #tags span:active {
