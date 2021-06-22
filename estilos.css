@@ -154,6 +154,13 @@ main {
   text-align: center;
 }
 
+#tags span:active {
+  position: relative;
+  bottom: 2px;
+  right: 2px;
+  cursor: pointer;
+}
+
 #tags h1 {
   margin-bottom: 1em;
   text-shadow: 2px 2px #000;
