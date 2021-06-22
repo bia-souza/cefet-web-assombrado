@@ -137,6 +137,14 @@ main {
   display: inline-block;
 }
 
+#ultimas-postagens .novidade::before {
+  content: "Novidade!";
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 3px;
+  background: green; /* ... */
+}
 
 
 
